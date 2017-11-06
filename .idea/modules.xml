@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/xyz-reader-starter-code.iml" filepath="$PROJECT_DIR$/.idea/xyz-reader-starter-code.iml" />
+      <module fileurl="file://C:\Users\Luka\Documents\Programiranja\android-projects\udacity-make-your-app-material\XYZReader\XYZReader.iml" filepath="C:\Users\Luka\Documents\Programiranja\android-projects\udacity-make-your-app-material\XYZReader\XYZReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udacity-make-your-app-material.iml" filepath="$PROJECT_DIR$/.idea/udacity-make-your-app-material.iml" />
+      <module fileurl="file://C:\Users\Luka\Documents\Programiranja\android-projects\udacity-make-your-app-material\.idea\xyz-reader-starter-code.iml" filepath="C:\Users\Luka\Documents\Programiranja\android-projects\udacity-make-your-app-material\.idea\xyz-reader-starter-code.iml" />
     </modules>
   </component>
 </project>

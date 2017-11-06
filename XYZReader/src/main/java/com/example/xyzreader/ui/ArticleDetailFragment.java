@@ -121,11 +121,6 @@ public class ArticleDetailFragment extends Fragment {
         mRootView = inflater.inflate(R.layout.fragment_article_detail_v2, container, false);
         ((AppCompatActivity) getActivity()).setSupportActionBar((Toolbar) mRootView.findViewById(R.id.toolbar));
         ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowHomeEnabled(true);
-        mDrawInsetsFrameLayout = (DrawInsetsFrameLayout)
-                mRootView.findViewById(R.id.draw_insets_frame_layout);
-
-        mStatusBarColorDrawable = new ColorDrawable(0);
-
         return mRootView;
     }
 

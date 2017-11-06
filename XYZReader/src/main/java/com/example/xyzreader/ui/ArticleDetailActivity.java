@@ -105,24 +105,22 @@ public class ArticleDetailActivity extends AppCompatActivity
             }
         });
 
-        mPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            public void onPageScrolled(int i, float v, int i1) {
 
             }
 
             @Override
-            public void onPageSelected(int position) {
-                currentPosition = position;
+            public void onPageSelected(int i) {
+                currentPosition = i;
             }
 
             @Override
-            public void onPageScrollStateChanged(int state) {
+            public void onPageScrollStateChanged(int i) {
 
             }
         });
-
-
     }
 
     private void initAdapter() {
